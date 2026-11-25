@@ -8,7 +8,6 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge)](https://www.linkedin.com/in/sanjeev-shrestha-iam/)
 [![Excel](https://img.shields.io/badge/Microsoft%20Excel-CSV-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)](https://github.com/sanjeev0276/SailPoint-IIQ-IGA-Fundamentals)
 
-
 **Author:** Sanjeev Shrestha | Dallas–Fort Worth Area, TX (Shrestha Technologies)  
 **Target Roles:** IAM Engineer / Identity Engineer / SailPoint Engineer (2027)  
 **Certification Focus:** Preparing for SailPoint Identity Security Engineer  
@@ -16,7 +15,6 @@
 
 ## 4 Labs Architecture Overview
  ![Architecture_Overview](Overall_Architecture_Diagram.png)
-
 
 ## Quick Navigation and Lab Execution Status
 <a id="lab-execution-status"></a>
@@ -28,7 +26,6 @@
 | **Lab 4** | JML Lifecycle          | Completed | [Go to Lab 4 >>](#lab-4-JML-Lifecycle)                        |
 ---
 ## Executive Summary and Business Impact
-
 Implemented an end-to-end IAM environment using Okta, RBAC, SAML 2.0 federation, Adaptive MFA, and automated Joiner-Mover-Leaver lifecycle with access governance across five hands-on labs.
 
 * **RBAC Model (Lab 1):** Core Okta Developer Tenant *.okta.com, Groups Finance-Team, HR-Team, IT-Admins, Contractors, Finance-Portal-Temporary-Access, Principle Least Privilege Access, no direct app assignments.
@@ -66,7 +63,7 @@ Implemented an end-to-end IAM environment using Okta, RBAC, SAML 2.0 federation,
 <summary>📸 <b>Click here to view Lab 1 Diagrams and Screenshots >></b></summary>
 <br>
  
-#### Architecture Diagram
+ #### Architecture Diagram
 ![Architecture_Diagram](Lab01-Identity-Foundation/Screenshots/Architecture_Diagram.png)
 
 #### Administration and Configuration Captures
