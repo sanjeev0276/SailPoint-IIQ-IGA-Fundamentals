@@ -45,12 +45,6 @@ Implemented an end-to-end IAM environment using Okta, RBAC, SAML 2.0 federation,
 |-----------|-------------|
 | Identity Platform | Okta Workforce Identity Cloud |
 | Authentication | MFA, Okta Verify |
-| Federation | SAML 2.0, Identity Federation, Single Sign-On (SSO) |
-| Authorization | RBAC, Group-Based Access Control |
-| Lifecycle | JML Simulation, Okta Profile Attributes, Group Rules |
-| Governance | Access Governance, Access Reviews |
-| Security Models | Least Privilege, Zero Trust |
-| IAM Concepts | Provisioning, Deprovisioning, Access Certification |
 ## Detailed Lab Implementations and Visual Proof
 <a id="lab-1-RBAC-Model"></a>
 ### Lab 1: Identity Foundation
@@ -74,13 +68,13 @@ Implemented an end-to-end IAM environment using Okta, RBAC, SAML 2.0 federation,
   ![Identity-Cubes-List](Lab01-Identity-Foundation/Screenshots/Identity-Cubes-List.png)
 * **Asha-Cube-Detail:**  
   ![Asha-Cube-Detail](Lab01-Identity-Foundation/Screenshots/Asha-Cube-Detail.png)
-* **Mover-Test-Ravi-Before:**  
+* **Mover-Test-Ravi-Before (Department: Finance):**  
   ![Mover-Test-Ravi-Before](Lab01-Identity-Foundation/Screenshots/Mover-Test-Ravi-Before.png)
-* **Mover-Test-Ravi-After:**  
+* **Mover-Test-Ravi-After (Department: IT):**  
   ![Mover-Test-Ravi-After](Lab01-Identity-Foundation/Screenshots/Mover-Test-Ravi-After.png)
-* **Leaver-Test-Contractor-Before:**  
+* **Leaver-Test-Contractor-Before (Status: Active):**  
   ![Leaver-Test-Contractor-Before](Lab01-Identity-Foundation/Screenshots/Leaver-Test-Contractor-Before.png)
-* **Leaver-Test-Contractor-After:**  
+* **Leaver-Test-Contractor-After (Status: Terminated):**  
   ![Leaver-Test-Contractor-After](Lab01-Identity-Foundation/Screenshots/Leaver-Test-Contractor-After.png)
   
 </details>
