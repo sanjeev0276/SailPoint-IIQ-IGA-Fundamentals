@@ -35,18 +35,14 @@ Implemented an end-to-end IAM environment using Okta, RBAC, SAML 2.0 federation,
 * **SAML SSO Integration (Lab 2):** SAML 2.0 federation IdP Okta, SP Apps Finance Portal, HR Portal, IT Admin Portal, SAML ACS URL, Single Sign-On via group assignment.
 * **MFA Policy (Lab 3):** High Risk Admin Access Policy Applies to IT-Admins Group, Password + Okta Verify, Step-up Auth, DENY on policy violation, Zero Trust for admin.
 * **JML Lifecycle (Lab 4):** Joiner Department=Finance→Finance-Team→Finance Portal, Mover Finance→HR→HR-Team→HR Portal old revoked new granted, Leaver Deactivated→No apps, Groups kept for audit.
-* **Access Governance (Lab 5):** Exception Access Daniel Reed HR→Finance-Portal-Temporary-Access→Finance Portal, Access Review Matrix Omar Keep, Sarah Keep, Alex Keep with review, Mark Remove when ends, Applications tab shows source for RBAC audit.
 * **Users Managed:** 7 Okta users, 5 Groups, 3 SAML Apps, 4 Group Rules (Assign Finance Users, Assign HR Users, Assign IT Admins, Assign Contractors), 1 High Risk Admin MFA Policy
-
 ---
-
 ## Key Skills Demonstrated
 * Identity Foundation
 * SAML SSO Integration
 * MFA Policy
 * JML Lifecycle
-* Access Governance
-  
+* Access Governance  
 ## Technologies Used
 | Category | Technologies |
 |-----------|-------------|
@@ -58,22 +54,18 @@ Implemented an end-to-end IAM environment using Okta, RBAC, SAML 2.0 federation,
 | Governance | Access Governance, Access Reviews |
 | Security Models | Least Privilege, Zero Trust |
 | IAM Concepts | Provisioning, Deprovisioning, Access Certification |
-
 ## Detailed Lab Implementations and Visual Proof
 <a id="lab-1-RBAC-Model"></a>
 ### Lab 1: Identity Foundation
 **Key Learnings and Takeaways:**
 1. **HR Is The Authoritative Source:** IIQ does not invent identity data — it reflects HR truth. Every test in this lab started with a change in `HR_Feed.csv`, not a manual edit in IIQ. If HR is wrong, IIQ is wrong.
-
 2. **Correlation with EmployeeID Prevents Duplicates:** Using `EmployeeID` as the Identity + Correlation key ensures one person = one Identity Cube, even when department, title, or email changes. Without it, a Mover becomes two people in IIQ.
-
 3. **Mover/Leaver Start In HR:** Ravi moved Finance → IT in HR, IIQ showed IT. Contractor left, HR said Terminated, IIQ showed Terminated.
-   But IIQ still said Account = Active. Why? HR Status and Account Status are 2 different things. Turning off the account happens in Lab 04.
-   
+   But IIQ still said Account = Active. Why? HR Status and Account Status are 2 different things. Turning off the account happens in Lab 04.   
 <details>
 <summary>📸 <b>Click here to view Lab 1 Diagrams and Screenshots >></b></summary>
 <br>
-
+ 
 #### Architecture Diagram
 ![Architecture_Diagram](Lab01-Identity-Foundation/Screenshots/Architecture_Diagram.png)
 
