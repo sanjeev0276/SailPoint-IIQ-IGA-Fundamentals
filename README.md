@@ -1,11 +1,11 @@
 # SailPoint-IIQ IGA Fundamentals
-[[SailPoint](https://img.shields.io/badge/SailPoint-IdentityIQ-0033A0?style=for-the-badge)](https://github.com/sanjeev0276/SailPoint-IIQ-IGA-Fundamentals)
-[[IGA](https://img.shields.io/badge/IGA-Identity%20Governance-0A2A5A?style=for-the-badge)](https://github.com/sanjeev0276/SailPoint-IIQ-IGA-Fundamentals)
-[[JML](https://img.shields.io/badge/JML-Joiner%20Mover%20Leaver-1A5D1A?style=for-the-badge)](https://github.com/sanjeev0276/SailPoint-IIQ-IGA-Fundamentals)
-[[Lab 01](https://img.shields.io/badge/Lab%2001-Completed-brightgreen?style=for-the-badge)](https://github.com/sanjeev0276/SailPoint-IIQ-IGA-Fundamentals)
-[[Status](https://img.shields.io/badge/Project-In%20Progress-yellow?style=for-the-badge)](https://github.com/sanjeev0276/SailPoint-IIQ-IGA-Fundamentals)
-[[GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sanjeev0276/SailPoint-IIQ-IGA-Fundamentals)
-[[Excel](https://img.shields.io/badge/Microsoft%20Excel-HR%20Feed%20CSV-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)](https://github.com/sanjeev0276/SailPoint-IIQ-IGA-Fundamentals)
+[![SailPoint](https://img.shields.io/badge/SailPoint-IdentityIQ-0033A0?style=for-the-badge)](https://github.com/sanjeev0276/SailPoint-IIQ-IGA-Fundamentals)
+[![IGA](https://img.shields.io/badge/IGA-Identity%20Governance-0A2A5A?style=for-the-badge)](https://github.com/sanjeev0276/SailPoint-IIQ-IGA-Fundamentals)
+[![JML](https://img.shields.io/badge/JML-Joiner%20Mover%20Leaver-1A5D1A?style=for-the-badge)](https://github.com/sanjeev0276/SailPoint-IIQ-IGA-Fundamentals)
+[![Lab 01](https://img.shields.io/badge/Lab%2001-Completed-brightgreen?style=for-the-badge)](https://github.com/sanjeev0276/SailPoint-IIQ-IGA-Fundamentals)
+[![Status](https://img.shields.io/badge/Project-In%20Progress-yellow?style=for-the-badge)](https://github.com/sanjeev0276/SailPoint-IIQ-IGA-Fundamentals)
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sanjeev0276/SailPoint-IIQ-IGA-Fundamentals)
+[![Excel](https://img.shields.io/badge/Microsoft%20Excel-CSV-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)](https://github.com/sanjeev0276/SailPoint-IIQ-IGA-Fundamentals)
 
 **Author:** Sanjeev Shrestha | Dallas–Fort Worth Area, TX (Shrestha Technologies)  
 **Target Roles:** IAM Engineer / Identity Engineer / SailPoint Engineer (2027)  
