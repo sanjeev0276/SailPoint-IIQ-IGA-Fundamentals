@@ -1,8 +1,8 @@
 # SailPoint-IIQ IGA Fundamentals
-![SailPoint IIQ](https://img.shields.io/badge/SailPoint-IdentityIQ-0033A0?style=for-the-badge)
+![SailPoint](https://img.shields.io/badge/SailPoint-IdentityIQ-0033A0?style=for-the-badge)
 ![IGA](https://img.shields.io/badge/IGA-Identity%20Governance-0A2A5A?style=for-the-badge)
 ![JML](https://img.shields.io/badge/JML-Joiner%20Mover%20Leaver-1A5D1A?style=for-the-badge)
-![Lab 01](https://img.shields.io/badge/Lab%2001-Identity%20Foundation-Completed-success?style=for-the-badge)
+![Lab 01](https://img.shields.io/badge/Lab%2001-Completed-brightgreen?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Project-In%20Progress-yellow?style=for-the-badge)
 
 **Author:** Sanjeev Shrestha | Dallas–Fort Worth Area, TX (Shrestha Technologies)  
