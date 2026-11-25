@@ -22,7 +22,7 @@
 <a id="lab-execution-status"></a>
 | Lab       | Focus Area                                | Status    | Jump to Lab                                                                  |
 |-----------|-------------------------------------------|-----------|------------------------------------------------------------------------------|
-| **Lab 1** | RBAC Model | Completed | [Go to Lab 1 >>](#lab-1-RBAC-Model)                       |
+| **Lab 1** | Identity Foundation | Completed | [Go to Lab 1 >>](#lab-1-RBAC-Model)                       |
 | **Lab 2** | SAML SSO Integration    | Completed | [Go to Lab 2 >>](#lab-2-SAML-SSO-Integration) |
 | **Lab 3** | MFA Policy | Completed | [Go to Lab 3 >>](#lab-3-MFA-Policy)               |
 | **Lab 4** | JML Lifecycle          | Completed | [Go to Lab 4 >>](#lab-4-JML-Lifecycle)                        |
