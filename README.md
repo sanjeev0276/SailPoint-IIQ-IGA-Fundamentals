@@ -44,8 +44,7 @@ Implemented an end-to-end IAM environment using Okta, RBAC, SAML 2.0 federation,
 ---
 
 ## Key Skills Demonstrated
-
-* RBAC Model
+* Identity Foundation
 * SAML SSO Integration
 * MFA Policy
 * JML Lifecycle
@@ -68,12 +67,14 @@ Implemented an end-to-end IAM environment using Okta, RBAC, SAML 2.0 federation,
 ## Detailed Lab Implementations and Visual Proof
 
 <a id="lab-1-RBAC-Model"></a>
-### Lab 1: RBAC Model
+### Lab 1: Identity Foundation
 **Key Learnings and Takeaways:**
-Set up role-based access in Okta where users get app access through their department group, not individually. Example: HR-Team group -> HR Portal.
-1) More secure by default — Users only get what their role needs (least privilege), and we can review access by group, not person by person.
-2) Much faster and easier operations — Joiner / Mover / Leaver is just adding or removing someone from a group. No need to touch every app. This process is easier and faster.
-3) Cleaner and Scalable — Handles JML cleanly without leaving behind extra access. Helps the environment scale faster.
+1. **HR Is The Authoritative Source:** IIQ does not invent identity data — it reflects HR truth. Every test in this lab started with a change in `HR_Feed.csv`, not a manual edit in IIQ. If HR is wrong, IIQ is wrong.
+
+2. **Correlation with EmployeeID Prevents Duplicates:** Using `EmployeeID` as the Identity + Correlation key ensures one person = one Identity Cube, even when department, title, or email changes. Without it, a Mover becomes two people in IIQ.
+
+3. **Mover/Leaver Start In HR:** Ravi moved Finance → IT in HR, IIQ showed IT. Contractor left, HR said Terminated, IIQ showed Terminated.
+   But IIQ still said Account = Active. Why? HR Status and Account Status are 2 different things. Turning off the account happens in Lab 04.
    
 <details>
 <summary>📸 <b>Click here to view Lab 1 Diagrams and Screenshots >></b></summary>
