@@ -55,9 +55,9 @@ Implemented an end-to-end IAM environment using Okta, RBAC, SAML 2.0 federation,
 <a id="lab-1-RBAC-Model"></a>
 ### Lab 1: Identity Foundation
 **Key Learnings and Takeaways:**
-1. **HR Is The Authoritative Source:** IIQ does not invent identity data — it reflects HR truth. Every test in this lab started with a change in `HR_Feed.csv`, not a manual edit in IIQ. If HR is wrong, IIQ is wrong.
-2. **Correlation with EmployeeID Prevents Duplicates:** Using `EmployeeID` as the Identity + Correlation key ensures one person = one Identity Cube, even when department, title, or email changes. Without it, a Mover becomes two people in IIQ.
-3. **Mover/Leaver Start In HR:** Ravi moved Finance → IT in HR, IIQ showed IT. Contractor left, HR said Terminated, IIQ showed Terminated.
+1. HR Is the Authoritative Source: IIQ does not invent identity data — it reflects HR truth. Every test in this lab started with a change in `HR_Feed.csv`, not a manual edit in IIQ. If HR is wrong, IIQ is wrong.
+2. Correlation with EmployeeID prevents duplicates: Using `EmployeeID` as the Identity + Correlation key ensures one person = one Identity Cube, even when department, title, or email changes. Without it, a Mover becomes two people in IIQ.
+3. Mover/Leaver start In HR: Ravi moved Finance → IT in HR, IIQ showed IT. Contractor left, HR said Terminated, IIQ showed Terminated.
    But IIQ still said Account = Active. Why? HR Status and Account Status are 2 different things. Turning off the account happens in Lab 04.   
 <details>
 <summary>📸 <b>Click here to view Lab 1 Diagrams and Screenshots >></b></summary>
