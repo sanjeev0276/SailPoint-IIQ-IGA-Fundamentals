@@ -82,7 +82,9 @@ Implemented an end-to-end IAM environment using Okta, RBAC, SAML 2.0 federation,
   ![Leaver-Test-Contractor-Before](Lab01-Identity-Foundation/Screenshots/Leaver-Test-Contractor-Before.png)
 * **Leaver-Test-Contractor-After:**  
   ![Leaver-Test-Contractor-After](Lab01-Identity-Foundation/Screenshots/Leaver-Test-Contractor-After.png)
+  
 </details>
+
 ---
 **[↑ Back to Lab Execution Status](#lab-execution-status)**
 
