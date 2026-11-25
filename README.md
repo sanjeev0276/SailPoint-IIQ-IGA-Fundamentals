@@ -65,21 +65,24 @@ Implemented an end-to-end IAM environment using Okta, RBAC, SAML 2.0 federation,
  
  #### Architecture Diagram
 ![Architecture_Diagram](Lab01-Identity-Foundation/Screenshots/Architecture_Diagram.png)
-
-#### Administration and Configuration Captures
-* **People:**  
-  ![Organization Contact](Lab01-Identity-Foundation/Screenshots/People.png)
-* **Groups:**  
-  ![People](Lab%201%20-%20RBAC%20Model/Screenshots/Groups.png)
-* **Applications:**  
-  ![Custom Profile Attributes](Lab%201%20-%20RBAC%20Model/Screenshots/Applications.png)
-* **Application People Example:**  
-  ![Groups](Lab%201%20-%20RBAC%20Model/Screenshots/Application_People.png)
-* **Application Group Example:**  
-  ![Group Rules](Lab%201%20-%20RBAC%20Model/Screenshots/Application_Group.png)
-
+#### Identity Foundation
+* **HR-Source-Config:**  
+  ![HR-Source-Config](Lab01-Identity-Foundation/Screenshots/HR-Source-Config.png)
+* **Aggregation-Success:**  
+  ![Aggregation-Success](Lab01-Identity-Foundation/Screenshots/Aggregation-Success.png)
+* **Identity-Cubes-List:**  
+  ![Identity-Cubes-List](Lab01-Identity-Foundation/Screenshots/Identity-Cubes-List.png)
+* **Asha-Cube-Detail:**  
+  ![Asha-Cube-Detail](Lab01-Identity-Foundation/Screenshots/Asha-Cube-Detail.png)
+* **Mover-Test-Ravi-Before:**  
+  ![Mover-Test-Ravi-Before](Lab01-Identity-Foundation/Screenshots/Mover-Test-Ravi-Before.png)
+* **Mover-Test-Ravi-After:**  
+  ![Mover-Test-Ravi-After](Lab01-Identity-Foundation/Screenshots/Mover-Test-Ravi-After.png)
+* **Leaver-Test-Contractor-Before:**  
+  ![Leaver-Test-Contractor-Before](Lab01-Identity-Foundation/Screenshots/Leaver-Test-Contractor-Before.png)
+* **Leaver-Test-Contractor-After:**  
+  ![Leaver-Test-Contractor-After](Lab01-Identity-Foundation/Screenshots/Leaver-Test-Contractor-After.png)
 </details>
-
 ---
 **[↑ Back to Lab Execution Status](#lab-execution-status)**
 
