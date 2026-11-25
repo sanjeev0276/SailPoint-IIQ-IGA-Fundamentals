@@ -5,7 +5,7 @@
 [![Lab 01](https://img.shields.io/badge/Lab%2001-Completed-brightgreen?style=for-the-badge)](https://github.com/sanjeev0276/SailPoint-IIQ-IGA-Fundamentals)
 [![Status](https://img.shields.io/badge/Project-In%20Progress-yellow?style=for-the-badge)](https://github.com/sanjeev0276/SailPoint-IIQ-IGA-Fundamentals)
 [![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sanjeev0276/SailPoint-IIQ-IGA-Fundamentals)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge)](https://www.linkedin.com/in/YOUR-LINKEDIN-URL)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge)](https://www.linkedin.com/in/sanjeev-shrestha-iam/)
 [![Excel](https://img.shields.io/badge/Microsoft%20Excel-CSV-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)](https://github.com/sanjeev0276/SailPoint-IIQ-IGA-Fundamentals)
 
 
