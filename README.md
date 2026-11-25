@@ -59,10 +59,7 @@ Implemented an end-to-end IAM environment using Okta, RBAC, SAML 2.0 federation,
 | Security Models | Least Privilege, Zero Trust |
 | IAM Concepts | Provisioning, Deprovisioning, Access Certification |
 
-  
-
 ## Detailed Lab Implementations and Visual Proof
-
 <a id="lab-1-RBAC-Model"></a>
 ### Lab 1: Identity Foundation
 **Key Learnings and Takeaways:**
@@ -75,15 +72,14 @@ Implemented an end-to-end IAM environment using Okta, RBAC, SAML 2.0 federation,
    
 <details>
 <summary>📸 <b>Click here to view Lab 1 Diagrams and Screenshots >></b></summary>
-
 <br>
 
 #### Architecture Diagram
-![Architecture_Diagram](Lab%201%20-%20RBAC%20Model/Screenshots/Architecture_Diagram.png)
+![Architecture_Diagram](Lab01-Identity-Foundation/Screenshots/Architecture_Diagram.png)
 
 #### Administration and Configuration Captures
 * **People:**  
-  ![Organization Contact](Lab%201%20-%20RBAC%20Model/Screenshots/People.png)
+  ![Organization Contact](Lab01-Identity-Foundation/Screenshots/People.png)
 * **Groups:**  
   ![People](Lab%201%20-%20RBAC%20Model/Screenshots/Groups.png)
 * **Applications:**  
