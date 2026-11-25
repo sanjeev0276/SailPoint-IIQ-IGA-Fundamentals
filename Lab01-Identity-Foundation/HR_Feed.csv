@@ -1,5 +1,0 @@
-EmployeeID,FirstName,LastName,Email,Department,Title,Manager,Status,StartDate,Location
-E101,Asha,Joiner,sanjeev0276+asha.joiner@gmail.com,Finance,Finance Analyst,Ravi Mover,Active,11/25/2026,DFW
-E102,Ravi,Mover,sanjeev0276+ravi.mover@gmail.com,IT,Senior Finance Analyst,Sarah Manager,Active,3/15/2024,DFW
-E103,Maya,Leaver,sanjeev0276+maya.leaver@gmail.com,IT,IT Support Engineer,Sarah Manager,Active,8/1/2023,DFW
-E104,Temp,Contractor,sanjeev0276+temp.contractor@gmail.com,IT,Contractor - Helpdesk,Ravi Mover,Terminated,11/25/2026,Remote
