@@ -51,7 +51,7 @@ Implemented an end-to-end IAM environment using Okta, RBAC, SAML 2.0 federation,
 * Mover/Leaver start In HR: Ravi moved Finance → IT in HR, IIQ showed IT. Contractor left, HR said Terminated, IIQ showed Terminated.
    But IIQ still said Account = Active. Why? HR Status and Account Status are 2 different things. Turning off the account happens in Lab 04.   
 <details>
-<summary>📸 <b>Click here to View Lab 1 Diagrams and Screenshots >></b></summary>
+<summary>📸 <b>Click Here to View Lab 1 Diagrams and Screenshots >></b></summary>
 <br>
  
  #### Architecture Diagram
@@ -88,7 +88,7 @@ Implemented an end-to-end IAM environment using Okta, RBAC, SAML 2.0 federation,
 You also have to remove Finance-Base. If you skip the removal, he keeps old access he no longer needs — and that's exactly how SoD violations and audit findings happen.
 
 <details>
-<summary>📸 <b>Click here to View Lab 2 Diagrams and Screenshots >></b></summary>
+<summary>📸 <b>Click Here to View Lab 2 Diagrams and Screenshots >></b></summary>
 
 <br>
 
