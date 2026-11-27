@@ -20,10 +20,10 @@
 <a id="lab-execution-status"></a>
 | Lab       | Focus Area                                | Status    | Jump to Lab                                                                  |
 |-----------|-------------------------------------------|-----------|------------------------------------------------------------------------------|
-| **Lab 1** | Identity Foundation | Completed | [Go to Lab 1 >>](#lab-1-RBAC-Model)                       |
+| **Lab 1** | Identity Foundation | Completed | [Go to Lab 1 >>](#lab-1-RBAC-Model)  |
 | **Lab 2** | RBAC and Entitlements | Completed | [Go to Lab 2 >>](#lab-2-SAML-SSO-Integration) |
-| **Lab 3** | MFA Policy | Completed | [Go to Lab 3 >>](#lab-3-MFA-Policy)               |
-| **Lab 4** | JML Lifecycle          | Completed | [Go to Lab 4 >>](#lab-4-JML-Lifecycle)                        |
+| **Lab 3** | MFA Policy | Completed | [Go to Lab 3 >>](#lab-3-MFA-Policy)  |
+| **Lab 4** | JML Lifecycle | Completed | [Go to Lab 4 >>](#lab-4-JML-Lifecycle) |
 ---
 ## Executive Summary and Business Impact
 Implemented an end-to-end IAM environment using Okta, RBAC, SAML 2.0 federation, Adaptive MFA, and automated Joiner-Mover-Leaver lifecycle with access governance across five hands-on labs.
@@ -120,7 +120,7 @@ You also have to remove Finance-Base. If you skip the removal, he keeps old acce
 * Assign policy to app, not to user: Assigned High Risk Admin Access Policy directly to IT Admin Portal app in Sign On > User authentication, so Alex Chen gets MFA prompt when he logs in.
 
 <details>
-<summary>📸 <b>Click here to view Lab 3 Diagrams and Screenshots >></b></summary>
+<summary>📸 <b>Click Here to View Lab 3 Diagrams and Screenshots >></b></summary>
 
 <br>
 
@@ -149,7 +149,7 @@ You also have to remove Finance-Base. If you skip the removal, he keeps old acce
 * Leaver removes apps, keeps groups for audit: Deactivate = No apps assigned. HR-Team stays in Groups tab for audit history. Real flow: Deactivate now, Delete after 30 days.
 
 <details>
-<summary>📸 <b>Click here to view Lab 4 Diagrams and Screenshots >></b></summary>
+<summary>📸 <b>Click Here to View Lab 4 Diagrams and Screenshots >></b></summary>
 
 <br>
 
@@ -171,46 +171,4 @@ You also have to remove Finance-Base. If you skip the removal, he keeps old acce
 
 ---
 **[↑ Back to Lab Execution Status](#lab-execution-status)**
-
-<a id="lab-5-Access-Governance"></a>
-### Lab 5: Access Governance
-
-**Key Learnings and Takeaways:**
-* Temp group, not permanent team - Daniel HR needs Finance temporary - Created Finance-Portal-Temporary-Access group for Finance Portal, not Finance-Team - Prevents SoD HR+Finance
-* Applications tab shows source - My Apps shows HR + Finance, but Applications tab shows Finance via temp group and HR via HR-Team - Auditors check this - RBAC
-* Temp access must be removed - Lab 5 manual - No auto-remove - Prod needs Workflows for auto-revoke - Manual causes orphaned access
-
-<details>
-<summary>📸 <b>Click here to view Lab 5 Diagrams and Screenshots >></b></summary>
-
-<br>
-
-#### Architecture Diagram
-![Architecture Diagram](Lab%205%20-%20Access%20Governance/Screenshots/Architecture_Diagram.png)
-
-#### Exception Access Proof
-* **Daniel Reed Exception Access - My Apps:**  
-  ![Daniel_Reed_Exception_Access](Lab%205%20-%20Access%20Governance/Screenshots/Daniel_Reed_Exception_Access.png)
-
-* **Daniel Reed Temp Access - Applications Assignment via Temp Group:**  
-  ![Daniel_Reed_Temp_Access_Groups](Lab%205%20-%20Access%20Governance/Screenshots/Daniel_Reed_Temp_Access_Groups.png)
-
-</details>
-
----
-**[↑ Back to Lab Execution Status](#lab-execution-status)**
-
-## Production Considerations
-
-This lab simulates IAM concepts using an Okta Developer Tenant.
-Enterprise implementations would typically include:
-- Active Directory Integration
-- SCIM Provisioning
-- HR Source Systems
-- Automated Access Reviews
-- Okta Workflows
-- SIEM Monitoring
-
-## Original Repository & Credits
-This hands-on lab series was adapted and built upon the foundational framework provided by [SuhaibAN/okta-workforce-iam-lab](https://github.com/SuhaibAN/okta-workforce-iam-lab). Full original references can be found in [REFERENCE.md](REFERENCE.md).
 
