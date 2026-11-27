@@ -11,7 +11,7 @@
 **Author:** Sanjeev Shrestha | Dallas–Fort Worth Area, TX (Shrestha Technologies)  
 **Target Roles:** IAM Engineer / Identity Engineer / SailPoint Engineer (2027)  
 **Certification Focus:** Preparing for SailPoint Identity Security Engineer  
-**Environment:** SailPoint IIQ, GitHub, Excel 
+**Environment:** SailPoint IIQ, GitHub, CSV File, Excel 
 
 ## 4 Labs Architecture Overview
  ![Architecture_Overview](Overall_Architecture_Diagram.png)
@@ -22,7 +22,7 @@
 |-----------|-------------------------------------------|-----------|------------------------------------------------------------------------------|
 | **Lab 1** | Identity Foundation | Completed | [Go to Lab 1 >>](#lab-1-RBAC-Model)  |
 | **Lab 2** | RBAC and Entitlements | Completed | [Go to Lab 2 >>](#lab-2-SAML-SSO-Integration) |
-| **Lab 3** | MFA Policy | Completed | [Go to Lab 3 >>](#lab-3-MFA-Policy)  |
+| **Lab 3** | SoD and Policy Violations | Completed | [Go to Lab 3 >>](#lab-3-MFA-Policy)  |
 | **Lab 4** | JML Lifecycle | Completed | [Go to Lab 4 >>](#lab-4-JML-Lifecycle) |
 ---
 ## Executive Summary and Business Impact
@@ -34,7 +34,7 @@ Implemented an end-to-end IAM environment using Okta, RBAC, SAML 2.0 federation,
 ## Key Skills Demonstrated
 * Identity Foundation
 * RBAC and Entitlements
-* MFA Policy
+* SoD and Policy Violations
 * JML Lifecycle
 * Access Governance  
 ## Technologies Used
@@ -112,12 +112,12 @@ You also have to remove Finance-Base. If you skip the removal, he keeps old acce
 ---
 **[↑ Back to Lab Execution Status](#lab-execution-status)**
 <a id="lab-3-MFA-Policy"></a>
-### Lab 3: MFA Policy
+### Lab 3: SoD and Policy Violations
 
 **Key Learnings and Takeaways:**
-* Privileged apps need stronger login: IT Admin Portal is high-risk, so it needs Password + Okta Verify MFA for IT-Admins group, not just password like normal apps.
-* 2 rules matter: Rule 1 = IF IT-Admins THEN Password + Another Factor, Rule 2 = Catch-all Deny for everyone else. Without catch-all, anyone can get in.
-* Assign policy to app, not to user: Assigned High Risk Admin Access Policy directly to IT Admin Portal app in Sign On > User authentication, so Alex Chen gets MFA prompt when he logs in.
+* Don't let one person do both jobs: Asha could make a payment and approve it herself. That's how fraud happens. SoD says no.
+* A violation is a warning, not just an error: When the policy check found Asha, it was not punishing her. It was flagging a risky setup before it turned into real fraud. Violations show where to look.
+* Find it, fix it, prove it: SoD sets the rule. The violation proves the rule works. Removing the extra access and getting a clean re-check closes the loop..
 
 <details>
 <summary>📸 <b>Click Here to View Lab 3 Diagrams and Screenshots >></b></summary>
@@ -125,7 +125,7 @@ You also have to remove Finance-Base. If you skip the removal, he keeps old acce
 <br>
 
 #### Architecture Diagram
-![Architecture Diagram](Lab%203%20-%20MFA%20Policy/Screenshots/Architecture_Diagram.png)
+![Architecture Diagram](Lab03-SoD-Policy-Violations/Screenshots/Architecture-Diagram.png)
 
 #### MFA Policy
 * **IT Admins Rule Details (High Risk Admin Access Policy):**  
