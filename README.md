@@ -21,7 +21,7 @@
 | Lab       | Focus Area                                | Status    | Jump to Lab                                                                  |
 |-----------|-------------------------------------------|-----------|------------------------------------------------------------------------------|
 | **Lab 1** | Identity Foundation | Completed | [Go to Lab 1 >>](#lab-1-RBAC-Model)                       |
-| **Lab 2** | SAML SSO Integration    | Completed | [Go to Lab 2 >>](#lab-2-SAML-SSO-Integration) |
+| **Lab 2** | RBAC and Entitlements | Completed | [Go to Lab 2 >>](#lab-2-SAML-SSO-Integration) |
 | **Lab 3** | MFA Policy | Completed | [Go to Lab 3 >>](#lab-3-MFA-Policy)               |
 | **Lab 4** | JML Lifecycle          | Completed | [Go to Lab 4 >>](#lab-4-JML-Lifecycle)                        |
 ---
@@ -33,7 +33,7 @@ Implemented an end-to-end IAM environment using Okta, RBAC, SAML 2.0 federation,
 ---
 ## Key Skills Demonstrated
 * Identity Foundation
-* SAML SSO Integration
+* RBAC and Entitlements
 * MFA Policy
 * JML Lifecycle
 * Access Governance  
@@ -80,11 +80,12 @@ Implemented an end-to-end IAM environment using Okta, RBAC, SAML 2.0 federation,
 **[↑ Back to Lab Execution Status](#lab-execution-status)**
 
 <a id="lab-2-SAML-SSO-Integration"></a>
-### Lab 2: SAML SSO Integration
+### Lab 2: RBAC and Entitlements
 **Key Learnings and Takeaways:**
-* SAML is IdP trusting SP: Okta (IdP) sends a login proof to the test app (SP). Alex Chen gets access because he's in IT-Admins group - Alex Chen → IT-Admins → App. That's how all work apps work.
-* 4 fields must be exact: ACS URL (where to send login), Entity ID (app's ID), Name ID = Email, Username = Email. One typo and SSO fails.
-* Assign via groups: Assigned app to IT-Admins group, not directly to Alex. Easily manageable and scalable.
+* A Role is a bundle, not a single permission: An entitlement is one access — like one group or one app. A Role groups those entitlements together.Instead of granting 3 separate items, you grant 1 Role and the user gets all 3.
+* Assign access by Department, not by individual: In a real company you can't manage people one by one.So you make a rule: Finance gets Finance-Base, IT gets IT-Base. When a new person joins, their department decides their access for them. It scales.
+* A move is two actions, not one: When Ravi moved from Finance to IT, giving him IT-Base was only half the job.
+You also have to remove Finance-Base. If you skip the removal, he keeps old access he no longer needs — and that's exactly how SoD violations and audit findings happen.
 
 <details>
 <summary>📸 <b>Click here to view Lab 2 Diagrams and Screenshots >></b></summary>
@@ -92,7 +93,7 @@ Implemented an end-to-end IAM environment using Okta, RBAC, SAML 2.0 federation,
 <br>
 
 #### Architecture Diagram
-![Architecture Diagram](Lab%202%20-%20SAML%20SSO%20Integration/Screenshots/Architecture_Diagram.png)
+![Architecture Diagram](Lab02-RBAC-Entitlements/Screenshots/Architecture_Diagram.png)
 
 #### SSO Integration 
 
