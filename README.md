@@ -1,4 +1,4 @@
-# SailPoint-IIQ IGA Fundamentals
+# SailPoint-IIQ IGA Fundamentals Project
 [![SailPoint](https://img.shields.io/badge/SailPoint-IdentityIQ-0033A0?style=for-the-badge)](https://github.com/sanjeev0276/SailPoint-IIQ-IGA-Fundamentals)
 [![IGA](https://img.shields.io/badge/IGA-Identity%20Governance-0A2A5A?style=for-the-badge)](https://github.com/sanjeev0276/SailPoint-IIQ-IGA-Fundamentals)
 [![JML](https://img.shields.io/badge/JML-Joiner%20Mover%20Leaver-1A5D1A?style=for-the-badge)](https://github.com/sanjeev0276/SailPoint-IIQ-IGA-Fundamentals)
@@ -95,14 +95,12 @@ You also have to remove Finance-Base. If you skip the removal, he keeps old acce
 #### Architecture Diagram
 ![Architecture Diagram](Lab02-RBAC-Entitlements/Screenshots/Architecture_Diagram.png)
 
-#### SSO Integration 
-
-* **SAML App IT Admin Groups:**  
-  ![SAML_App_IT_Admins_Group](Lab%202%20-%20SAML%20SSO%20Integration/Screenshots/SAML_App_IT_Admins_Group.png)
-* **IT Admins Alex Chen:**  
-  ![IT_Admins_Alex_Chen](Lab%202%20-%20SAML%20SSO%20Integration/Screenshots/IT_Admins_Alex_Chen.png)
-* **SAML SSO Integration:**  
-  ![SAML_SSO_Integration](Lab%202%20-%20SAML%20SSO%20Integration/Screenshots/SAML_SSO_Integration.png)
+* **Finance-Role:**  
+  ![Finance-Role](Lab02-RBAC-Entitlements/Screenshots/Finance-Role.png)
+* **IT-Role:**  
+  ![IT-Role](Lab02-RBAC-Entitlements/Screenshots/IT-Role.png)
+* **Ravi-Roles:**  
+  ![Ravi-Roles](Lab02-RBAC-Entitlements/Screenshots/Ravi-Roles.png)
 
 </details>
 
