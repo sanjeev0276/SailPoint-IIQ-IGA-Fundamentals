@@ -101,7 +101,12 @@ You also have to remove Finance-Base. If you skip the removal, he keeps old acce
   ![IT-Role](Lab02-RBAC-Entitlements/Screenshots/IT-Role.png)
 * **Ravi-Roles:**  
   ![Ravi-Roles](Lab02-RBAC-Entitlements/Screenshots/Ravi-Roles.png)
-
+* **Asha-Roles:**  
+  ![Asha-Roles](Lab02-RBAC-Entitlements/Screenshots/Asha-Roles.png)
+* **Maya-Roles:**  
+  ![Maya-Roles](Lab02-RBAC-Entitlements/Screenshots/Maya-Roles.png)
+* **Ravi-Roles:**  
+  ![Temp-Roles](Lab02-RBAC-Entitlements/Screenshots/Temp-Roles.png)
 </details>
 
 ---
