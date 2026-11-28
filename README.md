@@ -127,13 +127,16 @@ You also have to remove Finance-Base. If you skip the removal, he keeps old acce
 #### Architecture Diagram
 ![Architecture Diagram](Lab03-SoD-Policy-Violations/Screenshots/Architecture-Diagram.png)
 
-#### MFA Policy
-* **IT Admins Rule Details (High Risk Admin Access Policy):**  
-  ![IT_Admins_Rule_Details](Lab%203%20-%20MFA%20Policy/Screenshots/IT_Admins_Rule_Details.png)
-* **App Assigned to Policy:**  
-  ![App_Assigned_to_Policy](Lab%203%20-%20MFA%20Policy/Screenshots/App_Assigned_to_Policy.png)
-* **IT Admins Alex Chen:**  
-  ![IT_Admins_Alex_Chen](Lab%203%20-%20MFA%20Policy/Screenshots/IT_Admins_Alex_Chen.png)
+* **Entitlements-Created:**  
+  ![Entitlements-Created](Lab03-SoD-Policy-Violations/Screenshots/Entitlements-Created.png)
+* **SoD-Policy-List:**  
+  ![SoD-Policy-List](Lab03-SoD-Policy-Violations/Screenshots/SoD-Policy-List.png)
+* **SoD-Policy:**  
+  ![SoD-Policy](Lab03-SoD-Policy-Violations/Screenshots/SoD-Policy.png)
+* **Asha-Violation-Found:**  
+  ![Asha-Violation-Found](Lab03-SoD-Policy-Violations/Screenshots/Asha-Violation-Found.png)
+* **Asha-Violation-Fixed:**  
+  ![Asha-Violation-Fixed](Lab03-SoD-Policy-Violations/Screenshots/Asha-Violation-Fixed.png)
 
 </details>
 
